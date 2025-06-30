@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: flask-attendance
+    env: python
+    buildCommand: ""
+    startCommand: "python 1.py"
